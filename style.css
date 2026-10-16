@@ -1,0 +1,71 @@
+/* Estilo padrão (Modo Claro) */
+body {
+  background-color: #ffffff;
+  color: #333333;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+  padding: 20px;
+}
+
+/* Títulos */
+h1 {
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+}
+
+h2 {
+  color: #2980b9;
+  margin-top: 25px;
+}
+
+/* Links */
+a {
+  color: #e67e22;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Arredondar a foto de perfil */
+img {
+  border-radius: 50%;
+  border: 3px solid #3498db;
+}
+
+/* Estilo simples para o botão */
+#theme-toggle {
+  padding: 10px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* ========================================== */
+/* ESTILOS PARA O MODO ESCURO (DARK MODE)    */
+/* ========================================== */
+
+body.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+body.dark-mode h1 {
+  color: #ffffff;
+  border-bottom-color: #007bff;
+}
+
+body.dark-mode h2 {
+  color: #64b5f6;
+}
+
+body.dark-mode a {
+  color: #ffb74d;
+}
