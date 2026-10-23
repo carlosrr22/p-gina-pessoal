@@ -83,3 +83,26 @@ body.dark-mode h2 {
 body.dark-mode a {
   color: #ffb74d;
 }
+/* ========================================== */
+/* RESPONSIVIDADE (Ecrãs Pequenos / Telemóveis) */
+/* ========================================== */
+
+@media (max-width: 600px) {
+  /* No telemóvel, o cabeçalho passa a ser empilhado na vertical */
+  .cabecalho {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  /* Reduz ligeiramente o tamanho das margens gerais da página no telemóvel */
+  body {
+    padding: 15px;
+  }
+
+  /* Faz com que o botão ocupe uma largura mais confortável no telemóvel */
+  #theme-toggle {
+    width: 100%;
+    text-align: center;
+  }
+}
